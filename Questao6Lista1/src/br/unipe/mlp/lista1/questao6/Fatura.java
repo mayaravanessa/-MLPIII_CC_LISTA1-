@@ -1,15 +1,16 @@
 package br.unipe.mlp.lista1.questao6;
 
 public class Fatura {
-	private String numero;
+	private int numero;
 	private String descricao;
 	private int qntComprada;
 	private double precoItem;
 	
-	public String getNumero() {
+	
+	public int getNumero() {
 		return numero;
 	}
-	public void setNumero(String numero) {
+	public void setNumero(int numero) {
 		this.numero = numero;
 	}
 	public String getDescricao() {
@@ -31,7 +32,7 @@ public class Fatura {
 		this.precoItem = precoItem;
 	}
 	//Construtor
-	public Fatura (	String numero, String descricao, int qntComprada, double precoItem){
+	public Fatura (	int numero, String descricao, int qntComprada, double precoItem){
 		this.numero = numero;
 		this.descricao = descricao;
 		this.qntComprada = qntComprada;
@@ -41,12 +42,19 @@ public class Fatura {
 	
 	//Metodo para calcular o valor da fatura e retorna o valor 
 	
-	public double getValorfatura(int qntComprada, double precoItem){
-		double valorTotal = (qntComprada * precoItem);
+	public double getValorfatura(){
 		
-		return valorTotal;
+		if(this.qntComprada<=0.0){
+			return 0.;
+		}
+		
+		if(this.precoItem<=0.0){
+			return 0.0;
+		}
+		
+		return  (this.qntComprada * this.precoItem);	
+		
 	}
-	
 	
 
 }
