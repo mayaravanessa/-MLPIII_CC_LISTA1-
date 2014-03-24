@@ -2,6 +2,10 @@ package br.unipe.mlp.lista1.questao6;
 
 import java.util.Scanner;
 
+/* Questão 6
+ * Feito por Diego Veloso & Mayara Vanessa - P4 - Ciência da Computação
+ */
+
 public class Principal {
 	public static void main(String[] args) {
 		
