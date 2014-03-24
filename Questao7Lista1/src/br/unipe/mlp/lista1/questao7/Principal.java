@@ -1,5 +1,9 @@
 package br.unipe.mlp.lista1.questao7;
 
+/* Questão 7
+ * Feito por Diego Veloso & Mayara Vanessa - P4 - Ciência da Computação
+ */
+
 import java.util.Scanner;
 
 public class Principal {
