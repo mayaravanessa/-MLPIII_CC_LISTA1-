@@ -12,7 +12,7 @@ public class Qst3 {
  	Acelerar o tempo de desenvolvimento;
 	Reduzir o tempo de manutenção;
 	Mais facil de entender e adaptar;
-	Codigo de melhor qualidade; 
+	Codigo de melhor qualidade;  
 */
 
 }
