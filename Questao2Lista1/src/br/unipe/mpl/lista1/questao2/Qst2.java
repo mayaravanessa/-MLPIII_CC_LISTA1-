@@ -1,5 +1,9 @@
 package br.unipe.mpl.lista1.questao2;
 
+/* Questão 2
+ * Feito por Diego Veloso & Mayara Vanessa - P4 - Ciência da Computação
+ */
+
 public class Qst2 {
 	
 	/*
