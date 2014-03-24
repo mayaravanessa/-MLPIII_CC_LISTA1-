@@ -1,5 +1,9 @@
 package br.unipe.mlp.lista1.questao9;
 
+/* Questão 9
+ * Feito por Diego Veloso & Mayara Vanessa - P4 - Ciência da Computação
+ */
+
 import java.util.Scanner;
 
 public class Principal {
@@ -9,7 +13,7 @@ public class Principal {
 		Scanner input = new Scanner(System.in);
 		
 		Veiculo veiculo = new Veiculo();
-		//VeiculoCarga veiculoCarga = new VeiculoCarga();
+		//VeiculoCarga veiculoCarga = new VeiculoCarga(); Teste
 	   //VeiculoPasseio veiculoPasseio = new VeiculoPasseio();
 		
 		

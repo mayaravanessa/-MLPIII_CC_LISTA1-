@@ -17,18 +17,19 @@ public class Agenda {
 		this.contato = contato;
 	}
 	
-	public Agenda(){
-		Contato[] contato = new Contato[2];
-	}
+	//public Agenda(){
+//		Contato[] contato = new Contato[2];
+//	}
 	
-	//Perguntar ao prof porque aqui tem que ser statico
+	//Aqui é criado o menu da agenda
 	public static void menu(){
 		System.out.println("---------AGENDA TELEFÔNICA----------");
 		System.out.println("1- Adicionar Contatos");
 		System.out.println("2- Procurar Contatos ");
 		System.out.println("3- Editar Contatos   ");
 		System.out.println("4- Listar Contatos   ");
-		System.out.println("5- Sair");
+		System.out.println("5- Remover Contato   ");
+		System.out.println("6- Fechar Agenda");
 		
 		System.out.println("Digite sua opção: ");
 	}
@@ -36,10 +37,12 @@ public class Agenda {
 	//Método para adicionar um contato 
 	//Obs: Preciso saber como passar isso para o vetor
 	//
-	public boolean adicionar(String nome, String telefone){
+	public void adicionar(Contato [] contato,String nome, String telefone){
 		
-        //System.out.println("Digite o nome: ");
-        //for (int i = 0; i < contato.length; i++){
+        System.out.println("Digite o nome: ");
+         for (int i = 0; i < this.contato.length; i++){
+        	 
+         }
         	
         	//getContato()[i].setNome() = input.nextLine();
         }
@@ -47,7 +50,7 @@ public class Agenda {
        // telefone = input.nextLine();
        // System.out.println("CADASTRADO COM SUCESSO");
         
-	}
+
 
 	public void procurar(){
 		
